@@ -12,6 +12,7 @@ class Acf
      */
     private static function setRawFilter()
     {
+        $rawFilter = false;
         $rawFilter = (has_filter('sober/controller/acf/array')
         ? apply_filters('sober/controller/acf/array', $rawFilter)
         : false);
