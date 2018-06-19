@@ -92,6 +92,10 @@ class Acf
 
         // Get $acf items
         $items = Acf::get($acf);
+        
+        if(empty($items)){
+            $items = [];
+        }
 
         if ($options) {
             $items = array_merge(Acf::getOptions(), $items);
