@@ -1,5 +1,5 @@
 {
-  "name": "soberwp/controller",
+  "name": "christianmagill/controller",
   "type": "package",
   "license": "MIT",
   "description": "WordPress package to enable a basic controller when using Blade with Sage 9",
